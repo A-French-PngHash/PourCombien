@@ -7,12 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090AAE9723AF837E00257A3E /* searchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AAE9623AF837E00257A3E /* searchEngine.swift */; };
+		09419F9E23B045D900B54ED3 /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09419F9D23B045D900B54ED3 /* todo.txt */; };
 		09841D36237FFA7800B2F1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09841D35237FFA7800B2F1C2 /* AppDelegate.swift */; };
-		09841D38237FFA7800B2F1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09841D37237FFA7800B2F1C2 /* ViewController.swift */; };
+		09841D38237FFA7800B2F1C2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09841D37237FFA7800B2F1C2 /* MenuViewController.swift */; };
 		09841D3B237FFA7800B2F1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09841D39237FFA7800B2F1C2 /* Main.storyboard */; };
 		09841D3D237FFA7A00B2F1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09841D3C237FFA7A00B2F1C2 /* Assets.xcassets */; };
 		09841D40237FFA7A00B2F1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09841D3E237FFA7A00B2F1C2 /* LaunchScreen.storyboard */; };
 		09841D4B237FFA7A00B2F1C2 /* PourCombienTuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09841D4A237FFA7A00B2F1C2 /* PourCombienTuTests.swift */; };
+		099BED7123942F7400B72219 /* SelectCategoryTableViewManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BED6F23942F7400B72219 /* SelectCategoryTableViewManage.swift */; };
+		099BED7223942F7400B72219 /* SelectCategoryTableViewManageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BED7023942F7400B72219 /* SelectCategoryTableViewManageCell.swift */; };
+		099F565F2385A424003373A0 /* ManipulateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F565E2385A424003373A0 /* ManipulateData.swift */; };
+		09CC7FC8238168F60010DC75 /* getCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC7FC7238168F60010DC75 /* getCSV.swift */; };
+		09CC7FCC2381961F0010DC75 /* pourCombien.csv in Resources */ = {isa = PBXBuildFile; fileRef = 09CC7FCB2381961F0010DC75 /* pourCombien.csv */; };
+		09DC14B42392E04E00204CF9 /* SelectCategoryTableViewTirer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DC14B22392E04E00204CF9 /* SelectCategoryTableViewTirer.swift */; };
+		09DC14B52392E04E00204CF9 /* SelectCategoryTableViewCellTirer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DC14B32392E04E00204CF9 /* SelectCategoryTableViewCellTirer.swift */; };
+		09DC14B72392E08F00204CF9 /* selected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DC14B62392E08F00204CF9 /* selected.swift */; };
+		09F011F62393CF9100D9472D /* storeDataInRam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F011F52393CF9100D9472D /* storeDataInRam.swift */; };
+		09F011F92394141D00D9472D /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F011F82394141D00D9472D /* RulesViewController.swift */; };
+		09F011FB239424C200D9472D /* ManageThisOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F011FA239424C100D9472D /* ManageThisOneViewController.swift */; };
+		09F900A0238718DA00F9A9D3 /* SelectCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9009F238718DA00F9A9D3 /* SelectCategoryViewController.swift */; };
+		09F900A22387196800F9A9D3 /* PourCombienTirerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F900A12387196800F9A9D3 /* PourCombienTirerViewController.swift */; };
+		09F900A5238719DC00F9A9D3 /* AddPourCombienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F900A4238719DC00F9A9D3 /* AddPourCombienViewController.swift */; };
+		09F900A823871A0D00F9A9D3 /* ManageCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F900A723871A0D00F9A9D3 /* ManageCategoryViewController.swift */; };
+		09F900AB23871AC700F9A9D3 /* ManagePourCombienViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F900AA23871AC700F9A9D3 /* ManagePourCombienViewController.swift */; };
+		09F900AF23927CC600F9A9D3 /* SelectCategoryTableViewAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F900AE23927CC600F9A9D3 /* SelectCategoryTableViewAdd.swift */; };
+		09F900B223927D4500F9A9D3 /* SelectCategoryTableViewCellAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F900B123927D4500F9A9D3 /* SelectCategoryTableViewCellAdd.swift */; };
+		09FD2ACE23858DB1007B3EEA /* pourCombienTu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09FD2ACC23858DB0007B3EEA /* pourCombienTu.xcdatamodeld */; };
+		09FD2AD023859303007B3EEA /* LoadPourCombien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD2ACF23859303007B3EEA /* LoadPourCombien.swift */; };
+		09FD2AD2238594AC007B3EEA /* categorie.csv in Resources */ = {isa = PBXBuildFile; fileRef = 09FD2AD1238594AC007B3EEA /* categorie.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090AAE9623AF837E00257A3E /* searchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchEngine.swift; sourceTree = "<group>"; };
+		09419F9D23B045D900B54ED3 /* todo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
 		09841D32237FFA7800B2F1C2 /* PourCombienTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PourCombienTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09841D35237FFA7800B2F1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09841D37237FFA7800B2F1C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09841D37237FFA7800B2F1C2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		09841D3A237FFA7800B2F1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09841D3C237FFA7A00B2F1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09841D3F237FFA7A00B2F1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +61,27 @@
 		09841D46237FFA7A00B2F1C2 /* PourCombienTuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PourCombienTuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09841D4A237FFA7A00B2F1C2 /* PourCombienTuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourCombienTuTests.swift; sourceTree = "<group>"; };
 		09841D4C237FFA7A00B2F1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099BED6F23942F7400B72219 /* SelectCategoryTableViewManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCategoryTableViewManage.swift; sourceTree = "<group>"; };
+		099BED7023942F7400B72219 /* SelectCategoryTableViewManageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCategoryTableViewManageCell.swift; sourceTree = "<group>"; };
+		099F565E2385A424003373A0 /* ManipulateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManipulateData.swift; sourceTree = "<group>"; };
+		09CC7FC7238168F60010DC75 /* getCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getCSV.swift; sourceTree = "<group>"; };
+		09CC7FCB2381961F0010DC75 /* pourCombien.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = pourCombien.csv; sourceTree = "<group>"; };
+		09DC14B22392E04E00204CF9 /* SelectCategoryTableViewTirer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCategoryTableViewTirer.swift; sourceTree = "<group>"; };
+		09DC14B32392E04E00204CF9 /* SelectCategoryTableViewCellTirer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCategoryTableViewCellTirer.swift; sourceTree = "<group>"; };
+		09DC14B62392E08F00204CF9 /* selected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selected.swift; sourceTree = "<group>"; };
+		09F011F52393CF9100D9472D /* storeDataInRam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeDataInRam.swift; sourceTree = "<group>"; };
+		09F011F82394141D00D9472D /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		09F011FA239424C100D9472D /* ManageThisOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageThisOneViewController.swift; sourceTree = "<group>"; };
+		09F9009F238718DA00F9A9D3 /* SelectCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryViewController.swift; sourceTree = "<group>"; };
+		09F900A12387196800F9A9D3 /* PourCombienTirerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourCombienTirerViewController.swift; sourceTree = "<group>"; };
+		09F900A4238719DC00F9A9D3 /* AddPourCombienViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPourCombienViewController.swift; sourceTree = "<group>"; };
+		09F900A723871A0D00F9A9D3 /* ManageCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCategoryViewController.swift; sourceTree = "<group>"; };
+		09F900AA23871AC700F9A9D3 /* ManagePourCombienViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagePourCombienViewController.swift; sourceTree = "<group>"; };
+		09F900AE23927CC600F9A9D3 /* SelectCategoryTableViewAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryTableViewAdd.swift; sourceTree = "<group>"; };
+		09F900B123927D4500F9A9D3 /* SelectCategoryTableViewCellAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryTableViewCellAdd.swift; sourceTree = "<group>"; };
+		09FD2ACD23858DB1007B3EEA /* pourCombienTu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pourCombienTu.xcdatamodel; sourceTree = "<group>"; };
+		09FD2ACF23859303007B3EEA /* LoadPourCombien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPourCombien.swift; sourceTree = "<group>"; };
+		09FD2AD1238594AC007B3EEA /* categorie.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = categorie.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090AAE9823AF94EF00257A3E /* manageThisOne */ = {
+			isa = PBXGroup;
+			children = (
+				099BED6E23942F7400B72219 /* Select Category Table View Manage */,
+				09F011FA239424C100D9472D /* ManageThisOneViewController.swift */,
+			);
+			path = manageThisOne;
+			sourceTree = "<group>";
+		};
 		09841D29237FFA7800B2F1C2 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +132,11 @@
 		09841D34237FFA7800B2F1C2 /* PourCombienTu */ = {
 			isa = PBXGroup;
 			children = (
-				09841D35237FFA7800B2F1C2 /* AppDelegate.swift */,
-				09841D37237FFA7800B2F1C2 /* ViewController.swift */,
-				09841D39237FFA7800B2F1C2 /* Main.storyboard */,
-				09841D3C237FFA7A00B2F1C2 /* Assets.xcassets */,
-				09841D3E237FFA7A00B2F1C2 /* LaunchScreen.storyboard */,
-				09841D41237FFA7A00B2F1C2 /* Info.plist */,
+				09841D58237FFD3B00B2F1C2 /* Supporting Files */,
+				09841D57237FFD3300B2F1C2 /* Controller */,
+				09841D56237FFD2F00B2F1C2 /* Model */,
+				09841D55237FFD1E00B2F1C2 /* View */,
+				09419F9D23B045D900B54ED3 /* todo.txt */,
 			);
 			path = PourCombienTu;
 			sourceTree = "<group>";
@@ -94,6 +148,133 @@
 				09841D4C237FFA7A00B2F1C2 /* Info.plist */,
 			);
 			path = PourCombienTuTests;
+			sourceTree = "<group>";
+		};
+		09841D55237FFD1E00B2F1C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09841D39237FFA7800B2F1C2 /* Main.storyboard */,
+				09841D3E237FFA7A00B2F1C2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09841D56237FFD2F00B2F1C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09FD2AD3238594B2007B3EEA /* Data */,
+				09CC7FC7238168F60010DC75 /* getCSV.swift */,
+				09FD2ACC23858DB0007B3EEA /* pourCombienTu.xcdatamodeld */,
+				09FD2ACF23859303007B3EEA /* LoadPourCombien.swift */,
+				099F565E2385A424003373A0 /* ManipulateData.swift */,
+				09DC14B62392E08F00204CF9 /* selected.swift */,
+				09F011F52393CF9100D9472D /* storeDataInRam.swift */,
+				090AAE9623AF837E00257A3E /* searchEngine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09841D57237FFD3300B2F1C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09F011F72394140200D9472D /* Regles */,
+				09F900A923871AB100F9A9D3 /* Gerer les pour combien */,
+				09F900A6238719F800F9A9D3 /* Gerer les categories */,
+				09F900A3238719C200F9A9D3 /* Ajouter un Pour Combien */,
+				09F9009E238718AE00F9A9D3 /* Tirer au hasard */,
+				09841D37237FFA7800B2F1C2 /* MenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09841D58237FFD3B00B2F1C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09841D3C237FFA7A00B2F1C2 /* Assets.xcassets */,
+				09841D41237FFA7A00B2F1C2 /* Info.plist */,
+				09841D35237FFA7800B2F1C2 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		099BED6E23942F7400B72219 /* Select Category Table View Manage */ = {
+			isa = PBXGroup;
+			children = (
+				099BED6F23942F7400B72219 /* SelectCategoryTableViewManage.swift */,
+				099BED7023942F7400B72219 /* SelectCategoryTableViewManageCell.swift */,
+			);
+			path = "Select Category Table View Manage";
+			sourceTree = "<group>";
+		};
+		09DC14B12392E04E00204CF9 /* Select Category Table View Tirer */ = {
+			isa = PBXGroup;
+			children = (
+				09DC14B22392E04E00204CF9 /* SelectCategoryTableViewTirer.swift */,
+				09DC14B32392E04E00204CF9 /* SelectCategoryTableViewCellTirer.swift */,
+			);
+			path = "Select Category Table View Tirer";
+			sourceTree = "<group>";
+		};
+		09F011F72394140200D9472D /* Regles */ = {
+			isa = PBXGroup;
+			children = (
+				09F011F82394141D00D9472D /* RulesViewController.swift */,
+			);
+			path = Regles;
+			sourceTree = "<group>";
+		};
+		09F9009E238718AE00F9A9D3 /* Tirer au hasard */ = {
+			isa = PBXGroup;
+			children = (
+				09DC14B12392E04E00204CF9 /* Select Category Table View Tirer */,
+				09F9009F238718DA00F9A9D3 /* SelectCategoryViewController.swift */,
+				09F900A12387196800F9A9D3 /* PourCombienTirerViewController.swift */,
+			);
+			path = "Tirer au hasard";
+			sourceTree = "<group>";
+		};
+		09F900A3238719C200F9A9D3 /* Ajouter un Pour Combien */ = {
+			isa = PBXGroup;
+			children = (
+				09F900B023927D2700F9A9D3 /* Select Category Table View Add */,
+				09F900A4238719DC00F9A9D3 /* AddPourCombienViewController.swift */,
+			);
+			path = "Ajouter un Pour Combien";
+			sourceTree = "<group>";
+		};
+		09F900A6238719F800F9A9D3 /* Gerer les categories */ = {
+			isa = PBXGroup;
+			children = (
+				09F900A723871A0D00F9A9D3 /* ManageCategoryViewController.swift */,
+			);
+			path = "Gerer les categories";
+			sourceTree = "<group>";
+		};
+		09F900A923871AB100F9A9D3 /* Gerer les pour combien */ = {
+			isa = PBXGroup;
+			children = (
+				090AAE9823AF94EF00257A3E /* manageThisOne */,
+				09F900AA23871AC700F9A9D3 /* ManagePourCombienViewController.swift */,
+			);
+			path = "Gerer les pour combien";
+			sourceTree = "<group>";
+		};
+		09F900B023927D2700F9A9D3 /* Select Category Table View Add */ = {
+			isa = PBXGroup;
+			children = (
+				09F900AE23927CC600F9A9D3 /* SelectCategoryTableViewAdd.swift */,
+				09F900B123927D4500F9A9D3 /* SelectCategoryTableViewCellAdd.swift */,
+			);
+			path = "Select Category Table View Add";
+			sourceTree = "<group>";
+		};
+		09FD2AD3238594B2007B3EEA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				09FD2AD1238594AC007B3EEA /* categorie.csv */,
+				09CC7FCB2381961F0010DC75 /* pourCombien.csv */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +358,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CC7FCC2381961F0010DC75 /* pourCombien.csv in Resources */,
 				09841D40237FFA7A00B2F1C2 /* LaunchScreen.storyboard in Resources */,
 				09841D3D237FFA7A00B2F1C2 /* Assets.xcassets in Resources */,
+				09FD2AD2238594AC007B3EEA /* categorie.csv in Resources */,
+				09419F9E23B045D900B54ED3 /* todo.txt in Resources */,
 				09841D3B237FFA7800B2F1C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +381,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09841D38237FFA7800B2F1C2 /* ViewController.swift in Sources */,
+				09F011F62393CF9100D9472D /* storeDataInRam.swift in Sources */,
+				099F565F2385A424003373A0 /* ManipulateData.swift in Sources */,
+				09F900AF23927CC600F9A9D3 /* SelectCategoryTableViewAdd.swift in Sources */,
+				09DC14B72392E08F00204CF9 /* selected.swift in Sources */,
+				099BED7223942F7400B72219 /* SelectCategoryTableViewManageCell.swift in Sources */,
+				09F011F92394141D00D9472D /* RulesViewController.swift in Sources */,
+				09F900B223927D4500F9A9D3 /* SelectCategoryTableViewCellAdd.swift in Sources */,
+				09CC7FC8238168F60010DC75 /* getCSV.swift in Sources */,
+				09F900A0238718DA00F9A9D3 /* SelectCategoryViewController.swift in Sources */,
+				09841D38237FFA7800B2F1C2 /* MenuViewController.swift in Sources */,
+				09FD2AD023859303007B3EEA /* LoadPourCombien.swift in Sources */,
+				09DC14B52392E04E00204CF9 /* SelectCategoryTableViewCellTirer.swift in Sources */,
+				09F011FB239424C200D9472D /* ManageThisOneViewController.swift in Sources */,
+				099BED7123942F7400B72219 /* SelectCategoryTableViewManage.swift in Sources */,
+				09F900AB23871AC700F9A9D3 /* ManagePourCombienViewController.swift in Sources */,
+				09F900A823871A0D00F9A9D3 /* ManageCategoryViewController.swift in Sources */,
+				09FD2ACE23858DB1007B3EEA /* pourCombienTu.xcdatamodeld in Sources */,
+				090AAE9723AF837E00257A3E /* searchEngine.swift in Sources */,
+				09F900A5238719DC00F9A9D3 /* AddPourCombienViewController.swift in Sources */,
 				09841D36237FFA7800B2F1C2 /* AppDelegate.swift in Sources */,
+				09DC14B42392E04E00204CF9 /* SelectCategoryTableViewTirer.swift in Sources */,
+				09F900A22387196800F9A9D3 /* PourCombienTirerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,10 +563,9 @@
 		09841D50237FFA7A00B2F1C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M2A92WN59;
-				INFOPLIST_FILE = PourCombienTu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PourCombienTu/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +580,9 @@
 		09841D51237FFA7A00B2F1C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M2A92WN59;
-				INFOPLIST_FILE = PourCombienTu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PourCombienTu/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +667,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09FD2ACC23858DB0007B3EEA /* pourCombienTu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09FD2ACD23858DB1007B3EEA /* pourCombienTu.xcdatamodel */,
+			);
+			currentVersion = 09FD2ACD23858DB1007B3EEA /* pourCombienTu.xcdatamodel */;
+			path = pourCombienTu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 09841D2A237FFA7800B2F1C2 /* Project object */;
 }
